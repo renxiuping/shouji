@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 10rem;
+    background: #f3f2f0;
+}
+header{
+    width: 10rem;
+    font-size: 14px;
+    background: #fff;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+[data-dpr="2"] header{
+    font-size:28px;
+}
+[data-dpr="3"] header{
+    font-size:42px;
+}
+header a{
+    margin-left: 0.5rem;
+}
+header span{
+    margin-left: 3.6rem;
+}
+
+.hdbox input{
+    width:9rem;
+    height: 1rem;
+    border: 0;
+    border-radius:0.2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+.sccont{
+    width: 10rem;
+    height: 2rem;
+    background: #fff;
+    border-bottom:0.02rem solid #ccc;
+}
+
+.miti{
+    width: 10rem;
+}
+.miti .tu1{
+    width: 2rem;
+}
+.miti .tu1 img{
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+.miti .tu2{
+    width: 5rem;
+    height: 2rem;
+    display: block;
+    margin-left: 0.3rem;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2rem;
+}
+[data-dpr="2"] .miti .tu2{
+    font-size:40px;
+}
+[data-dpr="3"] .miti .tu2{
+    font-size:60px;
+}
+footer{
+    width: 10rem;
+    height:1.8rem;
+    position: fixed;
+    bottom: -0.1rem;
+    font-size: 14px;
+    background: #fff;
+}
+footer a{
+    width: 2rem;
+    height: 1.8rem;
+    margin: 0 auto;
+    float: left;
+    font-size: 14px;
+}
+[data-dpr="2"] footer a{
+    font-size:28px;
+}
+[data-dpr="3"] footer a{
+    font-size:42px;
+}
+.icon1{
+    background: url("../images/01.png") 3.5rem 4rem;
+    background-size: 2rem;
+    margin-left: 1rem;
+}
+.icon2{
+    background: url("../images/02.png") 7.8rem 4rem;
+    background-size: 2rem;
+}
+.icon3{
+    background: url("../images/03.png") 8rem 4rem;
+    background-size: 2rem;
+}
+.icon4{
+    background: url("../images/05.png") 10rem 4rem;
+    background-size: 2rem;
+}

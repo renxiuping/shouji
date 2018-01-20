@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 10rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 14px;
+}
+[data-dpr="2"] header{
+    font-size:28px;
+}
+[data-dpr="3"] header{
+    font-size:42px;
+}
+header a{
+    margin-left: 0.5rem;
+}
+header input{
+    width:8rem;
+    height: 1rem;
+    border: 0;
+    border-radius:0.2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    background: #f3f2f0;
+}
+.banner{
+    width: 10rem;
+    height: 3.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.banner img{
+    width: 4rem;
+    height: 3rem;
+    float: left;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+.banner .main{
+    font-size: 14px;
+    line-height: 1rem;
+}
+[data-dpr="2"] .banner .main{
+    font-size:28px;
+}
+[data-dpr="3"] .banner .main{
+    font-size:42px;
+}
+.kong{
+    width: 10rem;
+    height: 2rem;
+}
+footer{
+    width: 10rem;
+    height:1.8rem;
+    position: fixed;
+    bottom: -0.2rem;
+    font-size: 14px;
+    background: #fff;
+}
+footer a{
+    width: 2rem;
+    height: 1.8rem;
+    margin: 0 auto;
+    float: left;
+    font-size: 14px;
+}
+[data-dpr="2"] footer a{
+    font-size:28px;
+}
+[data-dpr="3"] footer a{
+    font-size:42px;
+}
+.icon1{
+    background: url("../images/01.png") 3.5rem 4rem;
+    background-size: 2rem;
+    margin-left: 1rem;
+}
+.icon2{
+    background: url("../images/02.png") 7.8rem 4rem;
+    background-size: 2rem;
+}
+.icon3{
+    background: url("../images/03.png") 8rem 4rem;
+    background-size: 2rem;
+}
+.icon4{
+    background: url("../images/05.png") 10rem 4rem;
+    background-size: 2rem;
+}

@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+[data-dpr="2"] a{
+    font-size:28px;
+}
+[data-dpr="3"] a{
+    font-size:42px;
+}
+body{
+    width: 10rem;
+    margin: 0 auto;
+}
+header{
+    margin-top:0.2rem;
+     width: 10rem;
+    height: 1rem;
+}
+/*
+.header-warp .fa fa-user-o{
+    float: right;
+    
+}
+*/
+header .header-warp{
+     width: 10rem;
+     height: 1rem;
+     background:url(../images/btn_02.gif) no-repeat 0.12rem; 
+    background-size:2rem 0.5rem;
+}
+header .header-warp a{
+    width: 5.813rem;
+    height: 0.666rem;
+    display: block;
+    background-color:#f3f2f0;
+    text-align: center;
+    border-radius: 0.12rem;
+    margin-top: 0.16rem;
+    margin-left:2.5rem;
+    color: #585454;
+    line-height: 0.666rem;
+    text-decoration: none;
+    font-size: 14px;
+}
+[data-dpr="2"] header .header-warp a{
+    font-size:28px;
+}
+[data-dpr="3"] header .header-warp a{
+    font-size:42px;
+}
+div.banner{
+    width: 10rem;
+    margin-top: 0.2rem;
+    height: 5.12rem;
+}
+div.banner .swiper-container img{
+    width: 10rem;
+    height: 5rem;
+}
+.swiper-pagination{
+    position: absolute;
+    top:4.3rem;
+    left:4rem;
+}
+div.box{
+    width: 10rem;
+    height: 2.594rem;
+   
+}
+div.box .box-top{
+    line-height: 0;
+    margin-left: 0.359rem;
+    width: 9.641rem;
+}
+div.box .box-top1{
+    margin-left: 0.047rem;
+    width: 1.813rem;
+    height: 2.125rem;
+    background-color: rgb(255, 255, 255);
+    float:left;
+}
+div.box .box-top1 .box-img1 img{
+    margin-top: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin-left: 0.15rem;
+}
+.box .box-font1{
+    margin-top: 0.3rem;
+    margin-left:0.5rem;
+}
+.box .box-font1 a{
+    text-decoration: none;
+    color:#000;
+}
+div.box .box-top1 .box-img2 img{
+    margin-top: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin-left: 0.15rem;
+}
+.box .box-font2{
+    margin-top: 0.3rem;
+    margin-left:0.5rem;
+}
+div.box .box-top1 .box-img3 img{
+    margin-top: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin-left: 0.15rem;
+}
+.box .box-font3{
+    margin-top: 0.3rem;
+    margin-left:0.5rem;
+}
+div.box .box-top1 .box-img4 img{
+    margin-top: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin-left: 0.15rem;
+}
+.box .box-font4{
+    margin-top: 0.3rem;
+    margin-left:0.7rem;
+}
+div.box .box-top1 .box-img5 img{
+    margin-top: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin-left: 0.15rem;
+}
+.box .box-font5{
+    margin-top: 0.3rem;
+    margin-left: 0.4rem;
+    font-size: 14px;
+}
+[data-dpr="2"] .box .box-font5{
+    font-size:28px;
+}
+[data-dpr="3"] .box .box-font5{
+    font-size:42px;
+}
+.box .box-font5 a{
+    color: #000;
+    text-decoration: none;
+}
+.box-top a{
+    color:#000;
+}
+
+.banner1{
+    width: 10rem;
+    height: 6rem;
+    border-bottom: 3px solid #ccc;
+}
+.banner1 img{
+   width: 10rem;
+     height: 6rem;
+}
+.main{
+    margin-top:0.3rem;
+    width: 10rem;
+    height:12.5rem;
+}
+.main-top .span1{
+    color: #fd7a40;
+}
+.main-top span{
+    font-size: 14px;
+}
+[data-dpr="2"] .main-top span{
+    font-size:28px;
+}
+[data-dpr="3"] .main-top span{
+    font-size:42px;
+}
+.line1{
+     width: 4rem;
+     margin-left: 0.65rem;
+     margin-top: 0.2rem;
+     float:left;
+ }
+.line1 a{
+    width: 4rem;
+}
+.line1 a img{
+    width: 4rem;
+}
+.line-t{
+    width: 4rem;
+    margin-left: 0.2rem;
+}
+.line1 a{
+    text-decoration: none;
+}
+.line1 a p,.line1 a p span,.main1-img1 p,.main1-img1 p span{
+    color: #000;
+    font-size: 14px;
+}
+[data-dpr="2"] .line1 a p,[data-dpr="2"] .line1 a p span,[data-dpr="2"] .main1-img1 p,[data-dpr="2"] .main1-img1 p span{
+    font-size:28px;
+}
+[data-dpr="3"] .line1 a p,[data-dpr="3"] .line1 a p span,[data-dpr="3"] .main1-img1 p,[data-dpr="3"] .main1-img1 p span{
+    font-size:42px;
+}
+.main1{
+    margin-top:0.5rem;
+    width: 10rem;
+    clear: both;
+}
+.main-top{
+    margin-top: 1rem;
+}
+.main1-top .span1{
+    color: #fd7a40;
+}
+.main1-img1{
+    width: 10rem;
+}
+.main1-img1 p{
+    margin-left: 1rem;
+}
+.main1-img1 img{
+    width: 10rem;
+}
+.main1-top span{
+    font-size: 14px;
+}
+[data-dpr="2"] .main1-top span{
+    font-size:28px;
+}
+[data-dpr="3"] .main1-top span{
+    font-size:42px;
+}
+.main3{
+    width: 3rem;
+    height:1rem;
+    margin: 0 auto;
+    background:url(../images/title_like.png);
+    background-size: 100% 100%;
+}
+[data-dpr="2"] .main3{
+    font-size:28px;
+}
+[data-dpr="3"] .main3{
+    font-size:42px;
+}
+.bottom{
+    width: 10rem;
+        margin-bottom: 2rem;
+}
+.bottom a{
+    width: 4.5rem;
+    margin-left: 0.33rem;
+}
+.bottom a img{
+    width: 4.5rem;
+    margin-top:0.2rem;
+}
+footer{
+    width: 10rem;
+    height:1.8rem;
+    position: fixed;
+    bottom: -0.1rem;
+    font-size: 14px;
+    background: #fff;
+}
+footer a{
+    width: 2rem;
+    height: 1.8rem;
+    margin: 0 auto;
+    float: left;
+    font-size: 14px;
+}
+[data-dpr="2"] footer a{
+    font-size:28px;
+}
+[data-dpr="3"] footer a{
+    font-size:42px;
+}
+.icon1{
+    background: url("../images/01.png") 3.5rem 4rem;
+    background-size: 2rem;
+    margin-left: 1rem;
+}
+.icon2{
+    background: url("../images/02.png") 7.8rem 4rem;
+    background-size: 2rem;
+}
+.icon3{
+    background: url("../images/03.png") 8rem 4rem;
+    background-size: 2rem;
+}
+.icon4{
+    background: url("../images/05.png") 10rem 4rem;
+    background-size: 2rem;
+}
